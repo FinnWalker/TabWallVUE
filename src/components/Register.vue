@@ -1,6 +1,7 @@
 <template>
-  <div class="Register">
+  <div id="register">
     <button @click="create"><span id="plus">+</span></button>
+    <br><br>
     <div v-for="group in groups" :key="group._id" >
       <button @click="selectGroup(group)">
         <img v-if=group.playing id="playing-icon" src="../assets/images/Playing.png" /><span class="group-names">{{group.participant_0.first_name + ", " + group.participant_1.first_name + ", " + group.participant_2.first_name + ", " + group.participant_3.first_name}}</span>
@@ -191,6 +192,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#register {
+  margin-top: 20vmin;
+}
 h3 {
   margin: 40px 0 0;
 }

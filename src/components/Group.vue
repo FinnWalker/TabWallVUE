@@ -1,6 +1,7 @@
 <template>
-  <div id="Group">
-    <button @click="play">PLAY</button><br>
+  <div id="group">
+    <button class="door" @click="play">PLAY</button><br>
+    <br><br>
     <button @click="form(0)">
       <span class="group-names">{{group.participant_0.first_name}}</span>
     </button><br>
@@ -13,7 +14,8 @@
     <button @click="form(3)">
       <span class="group-names">{{group.participant_3.first_name}}</span>
     </button><br>
-    <button @click="back">Back</button>
+    <br><br>
+    <button class="door" @click="back">Back</button>
   </div>
 </template>
 
@@ -64,25 +66,29 @@ export default {
 </script>
 
 <style scoped>
+#group {
+  transform: translate(0, 50%);
+}
 button {
   -webkit-appearance: none;
   background: white;
-  height: 5.5vmin;
+  height: 8vmin;
   outline: none;
-  border: 0.1vmin solid black;
-  border-radius: 1vmin;
-  padding: 0.3vmin;
+  border: 0.5vmin solid darkgreen;
+  border-radius: 2vmin;
   margin: 0.25vmin 0;
-  font-size: 4vmin;
+  overflow: hidden;
+  padding: 0.5vmin;
 }
 
 .group-names {
-  font-size: 3vmin;
+  font-size: 4vmin;
   height: 5.5vmin;
   text-align: center;
-  display: inline-block;
   float: right;
   line-height: 5.5vmin;
+  color: darkgreen;
+  font-family: gilroy_regular;
 }
 
 #plus {
@@ -90,5 +96,10 @@ button {
   display: inline-block;
   float: left;
   line-height: 5vmin;
+}
+
+.door {
+  color: darkgreen;
+  font-size: 4vmin;
 }
 </style>

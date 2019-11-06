@@ -1,11 +1,13 @@
 <template>
   <div id="play">
     <button @click="stop">BACK</button><br>
+    <hr>
     <button @click="scene(1)">The Bird Cage</button><br>
     <button @click="scene(2)">The Mounting Yard</button><br>
     <button @click="scene(3)">Winning The Cup</button><br>
     <button @click="scene(4)">Meet Phar Lap</button><br>
-    <button @click="snap">Snap</button>
+    <hr>
+    <button @click="snap">SNAP</button>
   </div>
 </template>
 
@@ -46,30 +48,26 @@ export default {
 </script>
 
 <style scoped>
+#play {
+  width: 40vmin;
+  margin: auto;
+  transform: translate(0, 50%);
+}
 button {
   -webkit-appearance: none;
   background: white;
-  height: 5.5vmin;
+  height: 8vmin;
   outline: none;
-  border: 0.1vmin solid black;
-  border-radius: 1vmin;
-  padding: 0.3vmin;
+  border: 0.5vmin solid darkgreen;
+  border-radius: 2vmin;
   margin: 0.25vmin 0;
+  overflow: hidden;
+  padding: 0.5vmin;
+   font-size: 4vmin;
+   line-height: 5.5vmin;
+  color: darkgreen;
+  font-family: gilroy_regular;
 }
 
-.group-names {
-  font-size: 3vmin;
-  height: 5.5vmin;
-  text-align: center;
-  display: inline-block;
-  float: right;
-  line-height: 5.5vmin;
-}
 
-#plus {
-  font-size: 5vmin;
-  display: inline-block;
-  float: left;
-  line-height: 5vmin;
-}
 </style>

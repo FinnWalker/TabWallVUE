@@ -3,59 +3,62 @@
     <br>
     <img src="../assets/images/LOGO.png" alt />
     <div id="form-container">
-      <div class="header">WARNING, ACKNOWLEDGEMENT, CONSENT AND WAIVER FORM - NSW</div>
+      <div class="header">WARNING, ACKNOWLEDGEMENT, CONSENT AND WAIVER FORM – VIC</div>
       <div
         class="normal-text"
-      >Between: Tab Limited (TAB), its subsidiaries and related entities and the undersigned person.</div>
+      >Between: Tabcorp Holdings Limited (TAB), its subsidiaries and related entities and the undersigned person.</div>
       <div class="header">Warning and Acknowlegement</div>
       <div class="normal-text">
-        I acknowledge that my participation in The TAB Magic Mirror (Promotion):
-        <br />contains inherent risks in all aspects of physical activity and may involve risk of personal injury
-        (including death) and/or possible property damage;
-        <br />may involve strenuous bodyweight exercises and other high exertion activities and that it is my right to
-        refuse such participation at any time during my allocation time; and I acknowledge that I understand the
-        possible strenuous nature of the activity and the potential for undesirable physiological results
-        including, but not limited to, abnormal blood pressure, muscle soreness, fainting, heart attack and/or
-        death.
-        <br />
-        <br />I warrant that I do not suffer from any medical condition that may affect my ability to participate
-        safely in strenuous exercise and hereby acknowledge that my participation in the Promotion is voluntary
-        and I knowingly assume all the risks.
+        I acknowledge that my participation in the augmented reality promotion during Melbourne Cup Carnival 2019
+(Promotion) may involve risk of personal injury (including death) and/or possible property damage. I hereby
+acknowledge that my participation in the Promotion is voluntary and I knowingly assume all the risks.
       </div>
       <div class="header">Release</div>
       <div class="normal-text">
-        In consideration of TAB allowing me to participate in the Promotion, I unconditionally agree to release and discharge TAB (to the maximum extent permitted by law) and its related entities, including directors, officers and employees of TAB and its related entities (collectively TAB) from any and all liability whatsoever, including for loss, injury, damage, property theft, death, personaly injury or illness, incurred or suffered by me as a result of participation in the Promotion and hereby agree that I, my heirs, distributees, guardians, successors in interest and legal representatives will not make a claim or file an action or suit against or sue TAB, or any of their officials, parents, subsidiaries or related entities, or any of their directors, officers, employees, agents or managers.
+        In consideration of TAB allowing me to participate in the Promotion, I unconditionally agree to release and
+discharge TAB (to the maximum extent permitted by law) and its related entities, including directors, officers
+and employees of TAB and its related entities (collectively TAB) from any and all liability whatsoever, including
+for loss, injury, damage, property theft, death, personal injury or illness, incurred or suffered by me as a result
+of participation in the Promotion and hereby agree that I, my heirs, distributees, guardians, successors in
+interest and legal representatives will not make a claim or file an action or suit against or sue TAB, or any of
+their officials, parents, subsidiaries or related entities, or any of their directors, officers, employees, agents or
+managers.
 
       </div>
       <div class="header">Consent to public use of content for media and promotional purposes</div>
       <div class="normal-text">
-        I give consent to TAB, its employees, agents and its related entities taking and using (or permitting authorised third parties to use) images (photographs or video) and/or sounds recordings of me that it has obtained or produced and reference to my first name (the Content) in any public media (including social media), radio, television, internet or print, or in a TAB publication, without any restriction on use (time, geographic, number of times of use, or otherwise).<br><br>
-        I understand and acknowledge that such Content may contain my personal information and that the intended use of such Content is for TAB's advertising, marketing or promotional purposes, and without expectation of compensation or other benefit to me.<br><br>
-        I hereby waive the right to or interest in the Content disclosed to the public, as contemplated in this release, and to the extent that any benefit accrues to TAB from the use of the Content, I hereby and forever waive any interest in or claim to such benefits.<br><br>
-        I hereby release and forever discharge TAB (including without limitation all of its officers, employees, contractors and agents) from any and all claims, liability, actions, suits, demands, costs, expenses or indebtedness arising out of, related to, or in any way connected with the use of the Content, and I hereby waive all rights and interest in and to such materials.
+        I give consent to TAB, its employees, agents and its related entities taking and using (or permitting authorised
+third parties to use) images (photographs or video) and/or sounds recordings of me that it has obtained or
+produced and reference to my first name (the Content) in any public media (including social media), radio,
+television, internet or print, or in a TAB publication, without any restriction on use (time, geographic, number
+of times of use, or otherwise).<br><br>
+I understand and acknowledge that such Content may contain my personal information and that the intended
+use of such Content is for TAB’s advertising, marketing or promotional purposes, and without expectation of
+compensation or other benefit to me.<br><br>
+I hereby waive the right to or interest in the Content disclosed to the public, as contemplated in this release,
+and to the extent that any benefit accrues to TAB from the use of the Content, I hereby and forever waive any
+interest in or claim to such benefits.<br><br>
+I hereby release and forever discharge TAB (including without limitation all of its officers, employees,
+contractors and agents) from any and all claims, liability, actions, suits, demands, costs, expenses or
+indebtedness arising out of, related to, or in any way connected with the use of the Content, and I hereby
+waive all rights and interest in and to such materials.
       </div>
       <div class="header">General</div>
       <div class="normal-text">
-       I confirm that I am over 18 years of age and that I have full legal capacity to be bound by
-this contract, and that I am signing this contract of my own free will and accord.<br><br>
-This form is governed by the laws of New South Wales. To the extent that a Court finds
-that any provision of this form or part thereof is invalid or unenforceable, that provision or
-part thereof will be severed and the remainder of this form will remain valid and
-enforceable.<br><br>
-I declare that I have read understood and agree with the above warning,
-acknowledgment, consent and waiver and acknowledge that I fully understand the
-meaning and importance of its contents and I assume with full knowledge of any and all
-dangers in my participation in the Prize and do so at my own risk.<br><br>
-http://tabinfo.com.au/T&CsTABMagicMirror.pdf
+       I confirm that I am over 18 years of age and that I have full legal capacity to be bound by this contract, and
+that I am signing this contract of my own free will and accord.<br><br>
+This form is governed by the laws of Victoria. To the extent that a Court finds that any provision of this form or
+part thereof is invalid or unenforceable, that provision or part thereof will be severed and the remainder of
+this form will remain valid and enforceable.<br><br>
+I declare that I have read understood and agree with the above warning, acknowledgment, consent and waiver
+and acknowledge that I fully understand the meaning and importance of its contents and I assume with full
+knowledge of any and all dangers in my participation in the Promotion and do so at my own risk.
       </div>
       <label class="checkbox-label">
         I am over the age of 18
-        <input type="checkbox" v-model="eligible" />
+        <input id="eligible" type="checkbox" v-model="eligible" />
       </label>
-      <label class="checkbox-label">
-        I accept the terms and conditions of the Promotion
-        <input type="checkbox" v-model="terms" />
-      </label>
+    
       <br />
       <br />
       <label>
@@ -100,13 +103,7 @@ http://tabinfo.com.au/T&CsTABMagicMirror.pdf
           </label>
         </span>
       </label>
-      <label class="checkbox-label">
-        I consent to receive marketing communications information on upcoming events from the Australian Turf Club
-        <input
-          type="checkbox"
-          v-model="marketing_atc"
-        />
-      </label>
+     
       <br />
       <br />
       <br />
@@ -120,10 +117,14 @@ http://tabinfo.com.au/T&CsTABMagicMirror.pdf
       <br />
       <br />
       <div class="header">PRIVACY STATEMENT</div>
-      <div class="normal-text">
-        The purpose of TAB collecting your personal details on this form is to verify that you are the person providing the acknowledgement, consent and waiver and identified in the Content. Your personal details may be disclosed to TAB's related bodies corporate, representatives and agents, and also to third party social media providers. Those third party social media providers may have servers located in overseas jurisdictions. Unless you tell TAB otherwise, TAB will assume you consent to the above collection, use and disclosure.
-        <br />For more information see TAB's Privacy Policy at www.tabcorp.com.au/privacy.
-        <br />For privacy related queries, please contact +61 3 9868 2890 or email privacy@tabcorp.com.au.
+      <div class="normal-text"><span id="privacy">
+        The purpose of TAB collecting your personal details on this form is to verify that you are the person providing the
+acknowledgment, consent and waiver and identified in the Content. Your personal details may be disclosed to
+TAB’s related bodies corporate, representatives and agents, and also to third party social media providers. Those
+third party social media providers may have servers located in overseas jurisdictions. Unless you tell TAB
+otherwise, TAB will assume you consent to the above collection, use and disclosure. For more information see
+TAB’s Privacy Policy at www.tabcorp.com.au/privacy.<br>For privacy related queries, please contact<br> +61 3 9868
+2890 or email privacy@tabcorp.com.au.</span>
       </div>
       <span id="signature">Signature</span>
       <canvas id="canvas" width="500px" height="250px"></canvas>
@@ -168,6 +169,7 @@ export default {
       this.$emit("back");
     },
     submitPlayer: function() {
+      if(!this.eligible) return;
       const config = {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -245,6 +247,9 @@ export default {
 </script>
 
 <style scoped>
+#privacy {
+  font-size: 2vmin;
+}
 #signature {
   font-size: 4vmin;
   margin-bottom: 0;
@@ -295,7 +300,7 @@ input[type="checkbox"] {
 label {
   position: relative;
   float: left;
-  font-size: 4vmin;
+  font-size: 3.5vmin;
   font-family: gilroy_regular;
 }
 input[type="number"] {
@@ -347,7 +352,7 @@ input[type="text"] {
   text-align: left;
   color: rgba(255, 255, 255, 0.9);
   font-family: "gilroy_light";
-  font-size: 3vmin;
+  font-size: 2.5vmin;
   margin-bottom: 4vw;
   line-height: 3.3vw;
 }
@@ -394,4 +399,6 @@ button {
 .right {
   float: right;
 }
+
+
 </style>
