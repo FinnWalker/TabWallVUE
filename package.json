@@ -12,7 +12,7 @@
     "core-js": "^3.3.2",
     "querystring": "^0.2.0",
     "signature_pad": "^3.0.0-beta.3",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "socket.io-client": "^2.3.0",
     "vue": "^2.6.10"
   },
